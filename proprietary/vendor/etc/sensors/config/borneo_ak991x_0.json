@@ -2,7 +2,7 @@
   "config":
   {
     "hw_platform": ["IDP"],
-    "soc_id": ["444"]
+    "soc_id": [ "417", "420", "444", "445"]
   },
   "ak0991x_0":{
     "owner": "sns_ak0991x",
@@ -74,14 +74,14 @@
     },
     ".orient":{
       "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "1",
+      "x":{ "type": "str", "ver": "0",
         "data": "+y"
       },
-      "y":{ "type": "str", "ver": "1",
-        "data": "+x"
+      "y":{ "type": "str", "ver": "0",
+        "data": "-x"
       },
-      "z":{ "type": "str", "ver": "1",
-        "data": "-z"
+      "z":{ "type": "str", "ver": "0",
+        "data": "+z"
       }
     },
     ".mag":{
@@ -90,32 +90,32 @@
         "owner": "sns_ak0991x",
         ".corr_mat":{
           "owner": "sns_ak0991x",
-          "0_0":{ "type": "flt", "ver": "1",
-            "data": "1.00189208984375"
+          "0_0":{ "type": "flt", "ver": "0",
+            "data": "1.009"
           },
-          "0_1":{ "type": "flt", "ver": "1",
-            "data": "0.0003662109375"
+          "0_1":{ "type": "flt", "ver": "0",
+            "data": "0.031"
           },
-          "0_2":{ "type": "flt", "ver": "1",
-            "data": "0.0111083984375"
+          "0_2":{ "type": "flt", "ver": "0",
+            "data": "0.012"
           },
-          "1_0":{ "type": "flt", "ver": "1",
-            "data": "0.032470703125"
+          "1_0":{ "type": "flt", "ver": "0",
+            "data": "0.031"
           },
-          "1_1":{ "type": "flt", "ver": "1",
-            "data": "1.0125732421875"
+          "1_1":{ "type": "flt", "ver": "0",
+            "data": "0.990"
           },
-          "1_2":{ "type": "flt", "ver": "1",
-            "data": "-0.02410888671875"
+          "1_2":{ "type": "flt", "ver": "0",
+            "data": "0.003"
           },
-          "2_0":{ "type": "flt", "ver": "1",
-            "data": "0.03363037109375"
+          "2_0":{ "type": "flt", "ver": "0",
+            "data": "0.012"
           },
-          "2_1":{ "type": "flt", "ver": "1",
-            "data": "0.01422119140625"
+          "2_1":{ "type": "flt", "ver": "0",
+            "data": "0.003"
           },
-          "2_2":{ "type": "flt", "ver": "1",
-            "data": "1.02099609375"
+          "2_2":{ "type": "flt", "ver": "0",
+            "data": "1.001"
           }
         },
         ".bias":{
